@@ -198,7 +198,7 @@ mainly used for Bluetooth rings / bracelets communication.</p>
 </dd>
 
         <dt id="dataParsingWithData" class="callable">
-  <span class="name"><a href="../ms_ble_data_analysis/MsBleDataAnalysis/dataParsingWithData.html">dataParsingWithData</a></span><span class="signature">(<wbr><span class="parameter" id="dataParsingWithData-param-value"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>&gt;</span></span> <span class="parameter-name">value</span>, {</span><span class="parameter" id="dataParsingWithData-param-isV4"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">isV4</span> = <span class="default-value">false</span></span>})
+  <span class="name"><a href="../ms_ble_data_analysis/MsBleDataAnalysis/dataParsingWithData.html">dataParsingWithData</a></span><span class="signature">(<wbr><span class="parameter" id="dataParsingWithData-param-value"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/int-class.html">int</a></span>&gt;</span></span> <span class="parameter-name">value</span>, {</span><span class="parameter" id="dataParsingWithData-param-model"><span class="type-annotation"><a href="../models/DeviceModel.html">DeviceModel</a></span> <span class="parameter-name">model</span> = <span class="default-value">DeviceModel.v8</span></span>})
     <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-core/Map-class.html">Map</a></span>
   </span>
   
@@ -723,6 +723,19 @@ Obtain total data for a certain day
 
 </dd>
 
+        <dt id="realECGWave" class="callable">
+  <span class="name"><a href="../ms_ble_data_analysis/MsBleDataAnalysis/realECGWave.html">realECGWave</a></span><span class="signature">(<wbr><span class="parameter" id="realECGWave-param-open"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">open</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-typed_data/Uint8List-class.html">Uint8List</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
         <dt id="realTimeStep" class="callable">
   <span class="name"><a href="../ms_ble_data_analysis/MsBleDataAnalysis/realTimeStep.html">realTimeStep</a></span><span class="signature">(<wbr><span class="parameter" id="realTimeStep-param-enable"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">enable</span>, {</span><span class="parameter" id="realTimeStep-param-tempEnable"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">tempEnable</span></span>})
     <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-typed_data/Uint8List-class.html">Uint8List</a></span>
@@ -948,6 +961,19 @@ Set automatic heart rate detection period
 
 </dd>
 
+        <dt id="startECGMeasurement" class="callable">
+  <span class="name"><a href="../ms_ble_data_analysis/MsBleDataAnalysis/startECGMeasurement.html">startECGMeasurement</a></span><span class="signature">(<wbr><span class="parameter" id="startECGMeasurement-param-open"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span> <span class="parameter-name">open</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-typed_data/Uint8List-class.html">Uint8List</a></span>
+  </span>
+  
+
+</dt>
+<dd>
+  
+  
+
+</dd>
+
         <dt id="stopGo" class="callable">
   <span class="name"><a href="../ms_ble_data_analysis/MsBleDataAnalysis/stopGo.html">stopGo</a></span><span class="signature">(<wbr>)
     <span class="returntype parameter">&#8594; <a href="https://api.flutter.dev/flutter/dart-typed_data/Uint8List-class.html">Uint8List</a></span>
@@ -988,7 +1014,7 @@ Set automatic heart rate detection period
 <footer>
   <span class="no-break">
     ms_ble_data_analysis
-      0.0.1
+      0.0.2
   </span>
   
 </footer>
